@@ -577,7 +577,7 @@ RMSE
 We can see that the model with the lowest RMSE is the elastic model with an RMSE of 3.663029. The coefficients for this model can be found below.
 ```{r}
 coef(model_elastic$finalModel, model_elastic$bestTune$lambda)
-```
+``` 
 ```{r}
 model_elastic$bestTune
 ```
