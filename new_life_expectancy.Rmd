@@ -308,7 +308,7 @@ plot(back_summary$cp,
   xlab = "Number of Input Variables", ylab = "Cp", type = "b", pch = 19,
   col = "red")
 ```
-The results of our backward selection tell us that the model with 12 variables is the best model, as it has the lowest $C_p$ of 9.988715. 
+The results of our backward selection tell us that the model with 12 variables is the best model, as it has the lowest $C_p$ of 9.988715.  
 
 ```{r}
 back_summary %>% head(1)
